@@ -27,7 +27,6 @@
 
 // export default App;
 
-
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -35,6 +34,8 @@ import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import MobileFixedCTA from './components/MobileFixedCTA';
 import ScrollToTop from './components/ScrollToTop';
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
         <Footer />
         <MobileFixedCTA />
       </div>
+       <SpeedInsights />
     </Router>
   );
 }
