@@ -8,13 +8,10 @@ const footerLinks = {
   ],
   Support: [
     { label: 'Help Center', href: 'mailto:hello@nopelt.com' },
-    { label: 'Community', href: '#' },
     { label: 'Contact Us', href: 'mailto:hello@nopelt.com' },
   ],
   Legal: [
     { label: 'Privacy Policy', href: '/privacy-policy', isRoute: true },
-    { label: 'Terms of Service', href: '#' },
-    { label: 'Cookie Policy', href: '#' },
   ],
 };
 
