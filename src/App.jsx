@@ -32,6 +32,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Terms from './pages/Terms';
 import MobileFixedCTA from './components/MobileFixedCTA';
 import ScrollToTop from './components/ScrollToTop';
 import { SpeedInsights } from "@vercel/speed-insights/react";
@@ -47,6 +48,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/privacy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<Terms />} />
           </Routes>
         </main>
         <Footer />

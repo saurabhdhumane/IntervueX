@@ -11,7 +11,8 @@ const footerLinks = {
     { label: 'Contact Us', href: 'mailto:hello@nopelt.com' },
   ],
   Legal: [
-    { label: 'Privacy Policy', href: '/privacy-policy', isRoute: true },
+    { label: 'Privacy Policy', href: '/privacy', isRoute: true },
+    { label: 'Terms & Conditions', href: '/terms', isRoute: true },
   ],
 };
 
