@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Target, Bell, Calendar, FileText } from 'lucide-react';
+import { Target, Bell, Calendar, ShieldCheck } from 'lucide-react';
 
 const features = [
   {
@@ -28,9 +28,9 @@ const features = [
     accentBorder: 'hover:border-violet-200',
   },
   {
-    title: 'Job Prep Vault',
-    description: 'Keep company research, JD details, and personal notes secure and accessible right when you need them most.',
-    icon: FileText,
+    title: 'AES-256 Encrypted',
+    description: 'Your sensitive career data is protected by military-grade AES-256-GCM encryption. We prioritize your privacy above all.',
+    icon: ShieldCheck,
     iconBg: 'bg-emerald-50',
     iconColor: 'text-emerald-600',
     accentBorder: 'hover:border-emerald-200',

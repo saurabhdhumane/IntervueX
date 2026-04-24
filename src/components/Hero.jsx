@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Star, Sparkles } from 'lucide-react';
+import { ArrowRight, Star, Sparkles, ShieldCheck } from 'lucide-react';
 
 const socialProofAvatars = [
   'https://i.pravatar.cc/48?img=1',
@@ -175,12 +175,27 @@ export default function Hero() {
               transition={{ duration: 5.5, repeat: Infinity, ease: 'easeInOut', delay: 1 }}
               className="absolute -right-4 sm:-right-10 top-20 z-20 floating-card px-4 py-3 hidden sm:flex items-center gap-3"
             >
-              <div className="w-8 h-8 rounded-xl bg-emerald-50 flex items-center justify-center text-lg">
+              <div className="w-8 h-8 rounded-xl bg-cyan-50 flex items-center justify-center text-lg">
                 🔔
               </div>
               <div>
                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none">Reminder</p>
                 <p className="font-bold text-slate-800 text-xs leading-tight mt-0.5">Google · 3:00 PM</p>
+              </div>
+            </motion.div>
+
+            {/* Floating card — security */}
+            <motion.div
+              animate={{ y: [0, -7, 0] }}
+              transition={{ duration: 4.8, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
+              className="absolute left-0 sm:left-4 bottom-12 z-20 floating-card px-4 py-3 hidden sm:flex items-center gap-3"
+            >
+              <div className="w-8 h-8 rounded-xl bg-emerald-50 flex items-center justify-center text-emerald-600">
+                <ShieldCheck size={18} />
+              </div>
+              <div>
+                <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none">Security</p>
+                <p className="font-bold text-slate-800 text-xs leading-tight mt-0.5">AES-256 Encrypted</p>
               </div>
             </motion.div>
           </motion.div>
