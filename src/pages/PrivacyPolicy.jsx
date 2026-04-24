@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
         <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 heading-premium mb-8">
           Privacy Policy
         </h1>
-        <p className="text-gray-500 mb-8 font-medium">Last updated: April 23, 2026</p>
+        <p className="text-gray-500 mb-8 font-medium">Last updated: April 24, 2026</p>
 
         <div className="prose prose-blue max-w-none space-y-10 text-gray-600 font-medium leading-relaxed">
           <section>
@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 heading-premium mb-4">2. Data Storage and Synchronization</h2>
             <p>
-              To provide you with a seamless experience across devices and ensure your data is backed up, IntervueX securely synchronizes your information with our backend servers. Your data is stored using secure databases (MongoDB) and caching mechanisms (Redis). We also store data locally on your device to enable offline-first functionality.
+              To provide you with a seamless experience across devices and ensure your data is backed up, IntervueX features an advanced offline-first architecture. Your data is stored locally on your device for instant access without an internet connection, and securely synchronizes with our backend servers in the background when you are online. All data synchronized to our servers is stored using secure databases.
             </p>
           </section>
 
@@ -64,7 +64,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 heading-premium mb-4">6. Security</h2>
             <p>
-              We prioritize the security of your data and use industry-standard measures to protect it during transmission and storage on our servers. However, no method of transmission over the internet or electronic storage is 100% secure.
+              We prioritize the security of your data. All sensitive personal information (including your name, email, phone, and location) as well as your private interview details (companies, salaries, and notes) are secured at rest using military-grade <b>AES-256-GCM encryption</b>. This means your private data is encrypted before it is written to our database, adding a critical layer of security to ensure your privacy is strictly maintained. However, no method of transmission over the internet or electronic storage is 100% secure.
             </p>
           </section>
 

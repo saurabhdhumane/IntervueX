@@ -12,7 +12,7 @@ export default function Terms() {
         <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900 heading-premium mb-8">
           Terms & Conditions
         </h1>
-        <p className="text-gray-500 mb-8 font-medium">Last updated: April 23, 2026</p>
+        <p className="text-gray-500 mb-8 font-medium">Last updated: April 24, 2026</p>
 
         <div className="prose prose-blue max-w-none space-y-10 text-gray-600 font-medium leading-relaxed">
           <section>
@@ -25,7 +25,7 @@ export default function Terms() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 heading-premium mb-4">2. Description of Service</h2>
             <p>
-              IntervueX is an interview tracking and management application that allows users to organize their job applications, schedule reminders, and synchronize data across devices using Google authentication and our backend services.
+              IntervueX is an offline-first interview tracking and management application that allows users to organize their job applications, schedule reminders, and synchronize data seamlessly across devices in the background using Google authentication and our backend services.
             </p>
           </section>
 
@@ -39,7 +39,7 @@ export default function Terms() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 heading-premium mb-4">4. User Content</h2>
             <p>
-              You retain all rights to the information, notes, and data you submit through the App ("User Content"). By submitting User Content, you grant us a license to store, process, and synchronize this data across our servers to provide the service to you.
+              You retain all rights to the information, notes, and data you submit through the App ("User Content"). By submitting User Content, you grant us a license to store, process, and synchronize this data across our servers to provide the service to you. To protect your privacy, we ensure that your sensitive User Content is securely encrypted at rest.
             </p>
           </section>
 
