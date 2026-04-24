@@ -13,6 +13,7 @@ const footerLinks = {
   Legal: [
     { label: 'Privacy Policy', href: '/privacy', isRoute: true },
     { label: 'Terms & Conditions', href: '/terms', isRoute: true },
+    { label: 'Delete Account Data', href: '/delete-account', isRoute: true },
   ],
 };
 
